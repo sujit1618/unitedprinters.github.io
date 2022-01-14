@@ -1,25 +1,25 @@
 
 function clientConnectForm(){
-    window.open('https://airtable.com/shrU3JNmuxsah2Pw9');
+    window.open('https://airtable.com/shroXt3Ur71ojGBFr');
 }
 
 function jobUpdateForm() {
-    window.open('https://airtable.com/shr67jSev4hSdCbcG');
+    window.open('https://airtable.com/shrTEZYaD0zOvmE24');
 }
 
 function newJobForm() {
-    window.open('https://airtable.com/shrANy3rDlBoMiKgK');
+    window.open('https://airtable.com/shrB3IBKtUwMJ3Csg');
 }
 
 function newClientForm() {
-    window.open('https://airtable.com/shrf0Ueb2uThl4DxQ');
+    window.open('https://airtable.com/shr4ZhawfpQC2srw5');
 }
 function viewClientDiscussion() {
-    window.open('https://airtable.com/shrTW0tuTCDPTsCVH');
+    window.open('https://airtable.com/shrppMIJLBnQcKi4V');
 }
 function viewAllOrders() {
-    window.open('https://airtable.com/shr3Dd15J94gnNPTA');
+    window.open('https://airtable.com/shrGb4tQNVLK4XVzs');
 }
 function viewJobStage() {
-    window.open('https://airtable.com/shr21dP7c3HpcjCTk');
+    window.open('https://airtable.com/shrEQBlr9saUyhVFD');
 }
