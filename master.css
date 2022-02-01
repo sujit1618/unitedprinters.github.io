@@ -468,3 +468,11 @@ padding: 12px 0;
     margin: 0 auto 0 auto;
     text-align: center;
 }
+
+.arrow-chev{
+    opacity: 0;
+}
+
+.indicator-wrapper{
+    opacity: 0;
+}
