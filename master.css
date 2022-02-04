@@ -520,5 +520,12 @@ padding: 12px 0;
 /* #recog-right{ */
 /* animation: cubic-bezier(1, 0, 0, 1) 2000ms nextSlide; */
 /* animation-iteration-count: infinite; */
-
 /* } */
+
+#infra-left,
+#infra-right,
+#infra-indi-1,
+#infra-indi-2,
+#infra-indi-3{
+    opacity: 0;
+}
