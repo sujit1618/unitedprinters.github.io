@@ -1,4 +1,6 @@
 var observer = new IntersectionObserver(function (entries) {
+
+    console.log(entries[0].intersectionRatio);
     // no intersection with screen
     if (entries[0].intersectionRatio === 0) {
         document.getElementById('hidden-logo').style.opacity = '100';
@@ -15,7 +17,7 @@ var observer = new IntersectionObserver(function (entries) {
     threshold: [0, 1]
 });
 
-observer.observe(document.querySelector("#nav-container-top"));
+observer.observe(document.getElementById('banner-button'));
 
 
 let recogImg = 2;
