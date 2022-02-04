@@ -236,6 +236,12 @@ padding: 12px 0;
 
 .arrow-chev{
     width: 40px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 240ms;
+}
+
+.arrow-chev:hover{
+    transform: scale(1.2, 1.2);
+
 }
 
 .gallery-image{
@@ -282,6 +288,7 @@ padding: 12px 0;
 .quote-container{
     display: block;
     width: 555px;
+    height: 123px;
     margin: 0 auto;
 }
 
@@ -470,9 +477,48 @@ padding: 12px 0;
 }
 
 .arrow-chev{
-    opacity: 0;
+    opacity: 100;
 }
 
 .indicator-wrapper{
-    opacity: 0;
+    opacity: 100;
 }
+
+#recog-img-2{
+    display: none;
+}
+#recog-img-3{
+    display: none;
+}
+
+#quote-2,
+#quote-3,
+#quote-4,
+#quote-5,
+#quote-6,
+#quote-7{
+    display:none;
+}
+
+@keyframes nextSlide{
+    0% {
+        transform: translateX(5px);
+      }
+
+    33%{
+        transform: translateX(0px);
+    }
+      66% {
+        transform: translateX(5px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+}
+
+/* #quote-right, */
+/* #recog-right{ */
+/* animation: cubic-bezier(1, 0, 0, 1) 2000ms nextSlide; */
+/* animation-iteration-count: infinite; */
+
+/* } */

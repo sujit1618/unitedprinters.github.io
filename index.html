@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>United Multicolour Printers | Offset Printing | Pune</title>
+
+
     <link rel="stylesheet" href="./master.css">
     <link rel="stylesheet" href="https://use.typekit.net/kdy7uuz.css">
     <link rel="icon" type="image/png" href="./images/cropped-logo-united-32x32.png">
@@ -32,6 +34,8 @@
         });
     </script>
     <!-- End of SMOOTH SCROLL -->
+
+
 </head>
 
 
@@ -71,7 +75,9 @@
             <a class="sticky-link" href="#recognition-1">Recognition</a>
             <a class="sticky-link" href="#about-2">About Us</a>
             <a class="sticky-link" href="#infra-2">Our Infrastructure</a>
-            <a class="sticky-link" href="https://prabhatprinting.com/PrabhatCalendars2022/Prabhat-Calendars-2022-Price-List.pdf">Prabhat Calendars 2022</a>
+            <a class="sticky-link"
+                href="https://prabhatprinting.com/PrabhatCalendars2022/Prabhat-Calendars-2022-Price-List.pdf">Prabhat
+                Calendars 2022</a>
             <a class="sticky-link" href="#contact-details-footer">Contact Details</a>
             <button id="hidden-button" class="button-1"
                 onclick="location.href='mailto:unitedprinters@rediffmail.com'">Contact Us</button>
@@ -82,14 +88,18 @@
         <div class="content-wrapper">
             <div class="gallery-wrapper">
                 <div class="image-wrapper">
-                    <img class="arrow-chev" id="left-arrow" src="./images/feather-icon/chevron-left.svg" alt="">
-                    <img class="gallery-image" src="./images/award-1.jpg" alt="">
-                    <img class="arrow-chev" id="left-arrow" src="./images/feather-icon/chevron-right.svg" alt="">
+                    <img class="arrow-chev" id="recog-left" onclick="recogLeftPress()"
+                        src="./images/feather-icon/chevron-left.svg" alt="">
+                    <img id="recog-img-1" class="gallery-image" src="./images/award-1.jpg" alt="">
+                    <img id="recog-img-2" class="gallery-image" src="./images/award-2-1.jpg" alt="">
+                    <img id="recog-img-3" class="gallery-image" src="./images/award-3.png" alt="">
+                    <img class="arrow-chev" id="recog-right" src="./images/feather-icon/chevron-right.svg" alt=""
+                        onclick="recogRightPress()">
                 </div>
                 <div class="indicator-wrapper">
-                    <div class="indicator-selected"></div>
-                    <div class="indicator-deselected"></div>
-                    <div class="indicator-deselected"></div>
+                    <div id="recog-indi-1" class="indicator-selected"></div>
+                    <div id="recog-indi-2" class="indicator-deselected"></div>
+                    <div id="recog-indi-3" class="indicator-deselected"></div>
                 </div>
             </div>
             <div class="text-container">
@@ -99,6 +109,7 @@
             </div>
         </div>
     </div>
+
     <div id="testimonials" class="testimonials-container">
         <div class="content-wrapper">
             <div class="text-container">
@@ -114,26 +125,89 @@
             </div>
             <div class="gallery-wrapper">
                 <div class="image-wrapper">
-                    <img class="arrow-chev" id="left-arrow" src="./images/feather-icon/chevron-left.svg" alt="">
+                    <img class="arrow-chev" onclick="quoteLeftPress()" id="quote-left" src="./images/feather-icon/chevron-left.svg" alt="">
                     <div class="testimonials-wrapper">
                         <h1>What our clients say</h1>
+
+                        <!-- quote-1 -->
                         <div class="quote-container" id="quote-1">
-                            <p class="quote-body"><span class="quote-mark">“</span> Good setup & delivery is the reason
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspGood setup & delivery is the reason
                                 for selecting United Printers as
                                 our offset printing company. Product quality & finishing is the one of the best
-                                feature.<span class="quote-mark">”</span>
+                                feature. <span class="quote-mark">”</span>
                             </p>
                             <br>
                             <h3 class="quote-source">TATA AutoComp GY Batteries Private Limited</h3>
-
                         </div>
+
+                        <!-- quote-2 -->
+                        <div class="quote-container" id="quote-2">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspI am overall satisfied with United
+                                printers. Quality is the reason for choosing United Printers as our offset printing
+                                press.<span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">Symbiosis Institute of Telecom Management</h3>
+                        </div>
+
+                        <!-- quote-3 -->
+                        <div class="quote-container" id="quote-3">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspIt has been a long relationship with United Printers. Offset printing services are excellent.
+                                <span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">MIT World Peace University</h3>
+                        </div>
+
+                        <!-- quote-4 -->
+                        <div class="quote-container" id="quote-4">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspYou are the one of the best printing service provider. Everything is quite nice & excellent.
+                                <span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">Vasantdada Sugar Institute</h3>
+                        </div>
+
+                        <!-- quote-5 -->
+                        <div class="quote-container" id="quote-5">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspUnited Multicolour Printers is a reliable, quality product maker & have  shown consistent improvement with their technology. Yes, they meet my satisfaction level with their printing quality.
+                                <span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">Tata BlueScope Steel</h3>
+                        </div>
+
+                        <!-- quote-6 -->
+                        <div class="quote-container" id="quote-6">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspHonest people. Quality first, money next is their motto. Love their profession. Work with vision. Once they take the job, they treat it like their child. More particular for perfection…
+                                <span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">Vasant Ponkshe</h3>
+                        </div>
+
+                        <!-- quote-7 -->
+                        <div class="quote-container" id="quote-7">
+                            <p class="quote-body"><span class="quote-mark">“</span>&nbspInnovative Technology + Great Services + Lighting Fast delivery + Excellent offset printing Quality
+                                <span class="quote-mark">”</span>
+                            </p>
+                            <br>
+                            <h3 class="quote-source">ABIL Group</h3>
+                        </div>
+
+
                     </div>
-                    <img class="arrow-chev" id="left-arrow" src="./images/feather-icon/chevron-right.svg" alt="">
+                    <img class="arrow-chev" onclick="quoteRightPress()" id="quote-right" src="./images/feather-icon/chevron-right.svg" alt="">
                 </div>
                 <div class="indicator-wrapper">
-                    <div class="indicator-selected"></div>
-                    <div class="indicator-deselected"></div>
-                    <div class="indicator-deselected"></div>
+                    <div id="quote-indi-1" class="indicator-selected"></div>
+                    <div id="quote-indi-2" class="indicator-deselected"></div>
+                    <div id="quote-indi-3" class="indicator-deselected"></div>
+                    <div id="quote-indi-4" class="indicator-deselected"></div>
+                    <div id="quote-indi-5" class="indicator-deselected"></div>
+                    <div id="quote-indi-6" class="indicator-deselected"></div>
+                    <div id="quote-indi-7" class="indicator-deselected"></div>
+                   
                 </div>
             </div>
         </div>
