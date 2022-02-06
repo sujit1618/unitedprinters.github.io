@@ -194,7 +194,17 @@
         justify-content: space-around;
         align-items: center;
         width: 88%;
-        max-width: 920px;
+        max-width: 1000px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .sticky-link-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 88%;
+        max-width: 800px;
         margin: 0 auto;
         flex-wrap: wrap;
     }
@@ -744,6 +754,16 @@
         flex-wrap: wrap;
     }
 
+    .sticky-link-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 88%;
+        max-width: 800px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
     .sticky-link {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 15px;
@@ -839,7 +859,7 @@
         text-align: center;
         font-size: 18px;
     }
-
+    
     .quote-container {
         display: block;
         width: 460px;
@@ -1220,16 +1240,17 @@
         width: 88%;
         max-width: 1269px;
         margin: 0 auto;
-        padding: 50px 12px;
+        padding: 12px 12px;
         flex-wrap: wrap;
     }
 
     .content-wrapper img {
         height: 200px;
-        margin: 0 auto 28px auto;
+        /* margin: 0 auto 28px auto; */
     }
 
     .text-container {
+        margin: 12px auto;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
@@ -1279,15 +1300,20 @@
 
     .sticky-nav-wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        width: 88%;
-        max-width: 1000px;
-        margin: 0 auto;
-        flex-wrap: wrap;
+        margin: auto;
+        width: 90%;
+    }
+
+    .sticky-link-container{
+        display: none;
+        padding: 12px;
     }
 
     .sticky-link {
+        text-align: center;
+        display: block;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 15px;
         font-weight: 400;
@@ -1385,6 +1411,12 @@
         margin: 0 auto 24px auto;
     }
 
+    .testimonials-wrapper{
+        padding: 24px 8px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(31px);
+    }
+
     .testimonials-wrapper h1 {
         text-align: center;
         font-size: 18px;
@@ -1424,6 +1456,7 @@
 
     .directors-img {
         height: 300px !important;
+        margin: 24px auto;
     }
 
     .capabilities-container {
@@ -1434,6 +1467,7 @@
     }
 
     .capabilities-img {
+        margin-top: 24px;
         display: block;
         height: 250px;
     }
@@ -1452,7 +1486,7 @@
         width: 88%;
         max-width: 1269px;
         margin: 0 auto;
-        padding: 100px 12px;
+        padding: 36px 12px;
     }
 
     .main-grid {
@@ -1571,7 +1605,7 @@
     }
 
     .main-grid .buttons-container {
-        margin: auto auto;
+        margin: 24px auto 0 auto;
     }
 
 
