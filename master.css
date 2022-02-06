@@ -579,7 +579,7 @@
         line-height: 130%;
         padding: 0;
         margin: 0;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     div {
@@ -1136,7 +1136,7 @@
         line-height: 130%;
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     div {
@@ -1480,7 +1480,6 @@
     .capabilities-img {
         margin-top: 24px;
         display: block;
-        height: 250px;
     }
 
     .infra {
