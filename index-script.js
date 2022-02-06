@@ -52,34 +52,31 @@ function recogLeftPress() {
     }
 }
 
-let quoteText = 2;
+let quoteText = 1;
+let quoteButtonPressed;
 
 function quoteRightPress() {
-
+    quoteText++;
+    if (quoteText >= 8) {
+        quoteText = 1;
+    }
     for (let i = 1; i <= 7; i++) {
         document.getElementById('quote-' + i).style.display = 'none';
         document.getElementById('quote-indi-' + i).className = 'indicator-deselected';
     }
     document.getElementById('quote-' + quoteText).style.display = 'block';
     document.getElementById('quote-indi-' + quoteText).className = 'indicator-selected';
-    quoteText++;
-    if (quoteText >= 7) {
-        quoteText = 1;
-    }
-
 }
 
 function quoteLeftPress() {
-
-    for (let i = 1; i <= 7; i++) {
-        document.getElementById('quote-' + i).style.display = 'none';
-        document.getElementById('quote-indi-' + i).className = 'indicator-deselected';
-    }
-    document.getElementById('quote-' + quoteText).style.display = 'block';
-    document.getElementById('quote-indi-' + quoteText).className = 'indicator-selected';
     quoteText--;
     if (quoteText <= 0) {
         quoteText = 7;
     }
-
+    for (let i = 1; i <= 7; i++) {
+        document.getElementById('quote-' + i).style.display = 'none';
+        document.getElementById('quote-indi-' + i).className = 'indicator-deselected';
+    }
+    document.getElementById('quote-' + quoteText).style.display = 'block';
+    document.getElementById('quote-indi-' + quoteText).className = 'indicator-selected';
 }
