@@ -5,12 +5,19 @@ var observer = new IntersectionObserver(function (entries) {
     if (entries[0].intersectionRatio === 0) {
         document.getElementById('hidden-logo').style.opacity = '100';
         document.getElementById('hidden-button').style.opacity = '100';
+        document.getElementById('sticky-navcontainer').style.display = 'flex';
+        document.getElementById('banner-spacer').style.display='none';
     }
 
     // fully intersects with screen
     else if (entries[0].intersectionRatio === 1) {
         document.getElementById('hidden-logo').style.opacity = '0';
         document.getElementById('hidden-button').style.opacity = '0';
+        if(window.innerWidth < 1236){
+            document.getElementById('sticky-navcontainer').style.display = 'none';
+        }
+        
+        document.getElementById('banner-spacer').style.display='block';
     }
 
 }, {
