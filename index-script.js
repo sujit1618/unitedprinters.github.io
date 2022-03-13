@@ -89,5 +89,5 @@ function quoteLeftPress() {
 }
 
 function mailUnited(){
-    window.location.href='mail:unitedprinters@rediffmail.com';
+    window.location.href='mailto:unitedprinters@rediffmail.com';
 }
