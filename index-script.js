@@ -87,3 +87,7 @@ function quoteLeftPress() {
     document.getElementById('quote-' + quoteText).style.display = 'block';
     document.getElementById('quote-indi-' + quoteText).className = 'indicator-selected';
 }
+
+function mailUnited(){
+    window.location.href='mail:unitedprinters@rediffmail.com';
+}
