@@ -150,6 +150,7 @@
     }
 
     .button-1 {
+        display: block;
         font-family: 'source-sans-pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         outline: none;
         background-color: #161a1f;
@@ -711,6 +712,7 @@
     }
 
     .button-1 {
+        display: block;
         font-family: 'source-sans-pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         outline: none;
         background-color: #161a1f;
@@ -1272,6 +1274,7 @@
     }
 
     .button-1 {
+        display: block;
         font-family: 'source-sans-pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         outline: none;
         background-color: #161a1f;
