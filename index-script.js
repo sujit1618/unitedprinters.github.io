@@ -27,36 +27,79 @@ var observer = new IntersectionObserver(function (entries) {
 observer.observe(document.getElementById('banner-button'));
 
 
+
+
+let exampleImg = 2;
+
+
+function exampleRightPress() {
+    exampleImg++;
+    if (exampleImg == 8) {
+        exampleImg = 1;
+    }
+
+    for (let i = 1; i <= 7; i++) {
+        document.getElementById('example-img-' + i).style.display = 'none';
+        document.getElementById('example-indi-' + i).className = 'indicator-deselected';
+    }
+    document.getElementById('example-img-' + exampleImg).style.display = 'block';
+    document.getElementById('example-indi-' + exampleImg).className = 'indicator-selected';
+   
+    
+
+}
+
+function exampleLeftPress() {
+    exampleImg--;
+    if (exampleImg == 0) {
+        exampleImg = 7;
+    }
+    for (let i = 1; i <= 7; i++) {
+        document.getElementById('example-img-' + i).style.display = 'none';
+        document.getElementById('example-indi-' + i).className = 'indicator-deselected';
+    }
+    document.getElementById('example-img-' + exampleImg).style.display = 'block';
+    document.getElementById('example-indi-' + exampleImg).className = 'indicator-selected';
+    
+    
+}
+
+
+
+
+
 let recogImg = 2;
 
 
 function recogRightPress() {
-    
-
-    for (let i = 1; i <= 3; i++) {
-        document.getElementById('recog-img-' + i).style.display = 'none';
-        document.getElementById('recog-indi-' + i).className = 'indicator-deselected';
-    }
-    document.getElementById('recog-img-' + recogImg).style.display = 'block';
-    document.getElementById('recog-indi-' + recogImg).className = 'indicator-selected';
     recogImg++;
     if (recogImg == 4) {
         recogImg = 1;
     }
 
-}
-
-function recogLeftPress() {
     for (let i = 1; i <= 3; i++) {
         document.getElementById('recog-img-' + i).style.display = 'none';
         document.getElementById('recog-indi-' + i).className = 'indicator-deselected';
     }
     document.getElementById('recog-img-' + recogImg).style.display = 'block';
     document.getElementById('recog-indi-' + recogImg).className = 'indicator-selected';
+   
+
+}
+
+function recogLeftPress() {
     recogImg--;
     if (recogImg == 0) {
         recogImg = 3;
     }
+    
+    for (let i = 1; i <= 3; i++) {
+        document.getElementById('recog-img-' + i).style.display = 'none';
+        document.getElementById('recog-indi-' + i).className = 'indicator-deselected';
+    }
+    document.getElementById('recog-img-' + recogImg).style.display = 'block';
+    document.getElementById('recog-indi-' + recogImg).className = 'indicator-selected';
+    
 }
 
 let quoteText = 1;

@@ -1,3 +1,19 @@
+.examples-container {
+    background-image: url(./images/bg-examples-2.png);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    margin: 0 auto 24px auto;
+}
+
+#example-img-2,
+#example-img-3,
+#example-img-4,
+#example-img-5,
+#example-img-7,
+#example-img-6{
+    display: none;
+}
+
 @media only screen and (min-width: 1366px) {
     a {
         text-decoration: none;
@@ -281,7 +297,7 @@
     }
 
     .indicator-selected {
-        background-color: #a3a3a3;
+        background-color: #7a7a7ad1;
         width: 11px;
         height: 11px;
         border-radius: 100%;
@@ -289,7 +305,7 @@
     }
 
     .indicator-deselected {
-        background-color: #dddddd;
+        background-color: #c7c7c7d1;
         width: 11px;
         height: 11px;
         border-radius: 100%;
@@ -843,7 +859,7 @@
     }
 
     .indicator-selected {
-        background-color: #a3a3a3;
+        background-color: #7a7a7ad1;
         width: 6px;
         height: 6px;
         border-radius: 100%;
@@ -851,7 +867,7 @@
     }
 
     .indicator-deselected {
-        background-color: #dddddd;
+        background-color: #c7c7c7d1;
         width: 6px;
         height: 6px;
         border-radius: 100%;
@@ -1354,6 +1370,13 @@
         transition: ease-in-out 120ms;
     }
 
+    .examples-container {
+        background-image: url(./images/bg-banner-opt.png);
+        /* background-attachment: fixed; */
+        background-size: cover;
+        margin: 0 auto 24px auto;
+    }
+
     .paper-bg-container {
         min-height: 100px;
         background-image: url(./images/bg-2.jpg);
@@ -1407,7 +1430,7 @@
     }
 
     .indicator-selected {
-        background-color: #a3a3a3;
+        background-color: #7a7a7ad1;
         width: 6px;
         height: 6px;
         border-radius: 100%;
@@ -1415,7 +1438,7 @@
     }
 
     .indicator-deselected {
-        background-color: #dddddd;
+        background-color: #c7c7c7d1;
         width: 6px;
         height: 6px;
         border-radius: 100%;
