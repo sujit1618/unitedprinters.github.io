@@ -10,8 +10,19 @@
 #example-img-4,
 #example-img-5,
 #example-img-7,
+#example-img-8,
 #example-img-6{
     display: none;
+}
+
+.job-details{
+    line-height: 100% !important;
+    margin: 0 0 -12px 0 !important;
+    padding: 0;
+}
+
+.job-details:last-of-type{
+    margin: 0 0 36px 0 !important;
 }
 
 @media only screen and (min-width: 1366px) {
