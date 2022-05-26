@@ -54,7 +54,7 @@ function exampleRightPress() {
     document.getElementById('example-img-' + exampleImg).style.display = 'block';
     document.getElementById('example-indi-' + exampleImg).className = 'indicator-selected';
     jobName.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('bookname');
-    pages.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('details');
+    pages.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('details1');
     innerPaper.innerHTML = 'Inner pages: ' + document.getElementById('example-img-' + exampleImg).getAttribute('inner-paper');
     coverPaper.innerHTML ='Cover: ' +  document.getElementById('example-img-' + exampleImg).getAttribute('cover');
     binding.innerHTML ='Binding: ' +  document.getElementById('example-img-' + exampleImg).getAttribute('binding');
@@ -84,7 +84,7 @@ function exampleLeftPress() {
     document.getElementById('example-img-' + exampleImg).style.display = 'block';
     document.getElementById('example-indi-' + exampleImg).className = 'indicator-selected';
     jobName.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('bookname');
-    pages.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('pages');
+    pages.innerHTML = document.getElementById('example-img-' + exampleImg).getAttribute('details1');
     innerPaper.innerHTML = 'Inner pages: ' + document.getElementById('example-img-' + exampleImg).getAttribute('inner-paper');
     coverPaper.innerHTML ='Cover: ' +  document.getElementById('example-img-' + exampleImg).getAttribute('cover');
     binding.innerHTML ='Binding: ' +  document.getElementById('example-img-' + exampleImg).getAttribute('binding');
