@@ -25,6 +25,10 @@
     margin: 0 0 36px 0 !important;
 }
 
+div{
+    background-attachment: fixed !important;
+}
+
 @media only screen and (min-width: 1366px) {
     a {
         text-decoration: none;
