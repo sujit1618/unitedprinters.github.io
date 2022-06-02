@@ -160,5 +160,5 @@ function quoteLeftPress() {
 }
 
 function mailUnited() {
-    window.location.href = 'mailto:ceo@unitedprinters.in';
+    window.location.href = 'https://sprw.io/stt-6502b8';
 }
