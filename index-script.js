@@ -35,11 +35,11 @@ let exampleImg = 1;
 
 function exampleRightPress() {
     exampleImg++;
-    if (exampleImg == 9) {
+    if (exampleImg == 8) {
         exampleImg = 1;
     }
 
-    for (let i = 1; i <= 8; i++) {
+    for (let i = 1; i <= 7; i++) {
         document.getElementById('example-img-' + i).style.display = 'none';
         document.getElementById('example-indi-' + i).className = 'indicator-deselected';
     }
@@ -65,9 +65,9 @@ function exampleRightPress() {
 function exampleLeftPress() {
     exampleImg--;
     if (exampleImg == 0) {
-        exampleImg = 8;
+        exampleImg = 7;
     }
-    for (let i = 1; i <= 8; i++) {
+    for (let i = 1; i <= 7; i++) {
         document.getElementById('example-img-' + i).style.display = 'none';
         document.getElementById('example-indi-' + i).className = 'indicator-deselected';
     }
@@ -160,5 +160,5 @@ function quoteLeftPress() {
 }
 
 function mailUnited() {
-    window.location.href = 'mailto:unitedprinters@rediffmail.com';
+    window.location.href = 'mailto:ceo@unitedprinters.in';
 }
