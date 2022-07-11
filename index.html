@@ -40,11 +40,13 @@
             if (!location.href.indexOf('http://www'))
                 location.href = 'https://unitedprinters.in';
 
-                else if (!location.href.indexOf('http://'))
+            else if (!location.href.indexOf('http://'))
                 location.href = 'https://unitedprinters.in';
+
+            var container = document.getElementById("sticky-navcontainer");
+            var content = container.innerHTML;
+            container.innerHTML = content;
         }
-        
-        
     </script>
 
 
