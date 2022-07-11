@@ -35,11 +35,18 @@
     </script>
     <!-- End of SMOOTH SCROLL -->
 
+    <script>
+        function redirWWW() {
+            if (location.href.indexOf('www') < 0)
+                location.href = 'https://unitedprinters.in';
+        }
+    </script>
+
 
 </head>
 
 
-<body>
+<body onload="redirWWW()">
     <div class="nav-container" id="home">
         <div class="nav-wrapper">
             <a href="" class="name-container">
@@ -100,28 +107,48 @@
                 <h3 id="cover-paper" class="job-details">Cover: 170 GSM Art paper</h3>
                 <h3 id="binding" class="job-details">Binding: Hard case binding</h3>
                 <h3 id="finish" class="job-details">Finish: Gloss lamination on cover</h3>
-                
+
             </div>
             <div class="gallery-wrapper">
                 <div class="image-wrapper">
                     <img class="arrow-chev" id="example-left" onclick="exampleLeftPress()"
                         src="./images/feather-icon/chevron-left.svg" alt="">
-                    <img id="example-img-1" bookname="'पुण्याचे कोरोनायुद्ध' | Pune Municipal Corporation" details1="224 pages, 8.25 x 10.5 inch" inner-paper="130 GSM Art paper" cover="170 GSM Art paper" binding="Hard Case Binding" finish="Gloss Lamination on cover" class="gallery-image"
+                    <img id="example-img-1" bookname="'पुण्याचे कोरोनायुद्ध' | Pune Municipal Corporation"
+                        details1="224 pages, 8.25 x 10.5 inch" inner-paper="130 GSM Art paper" cover="170 GSM Art paper"
+                        binding="Hard Case Binding" finish="Gloss Lamination on cover" class="gallery-image"
                         src="./images/book-images/punyache-coronayudhha-1-lowres.jpg" alt="">
-                    <img id="example-img-2" bookname="'लढे आणि तिढे' | Medha Kulkarni" details1="274 pages, A5 size" inner-paper="70 GSM Natural Shade" cover="300 GSM Art paper" binding="Section + Perfect Binding" finish="Thermal matte lamination with gate fold" class="gallery-image"
+                    <img id="example-img-2" bookname="'लढे आणि तिढे' | Medha Kulkarni" details1="274 pages, A5 size"
+                        inner-paper="70 GSM Natural Shade" cover="300 GSM Art paper" binding="Section + Perfect Binding"
+                        finish="Thermal matte lamination with gate fold" class="gallery-image"
                         src="./images/book-images/ladhe-ani-tidhe-2-lowres.jpg" alt="">
-                    <img id="example-img-3" bookname="'प्रबोधमंत्र' | Dr. Mrs. Nalini Gujarathi" details1="124 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper" binding="Hardcase binding" finish="Drip-off UV on cover" class="gallery-image" src="./images/book-images/prabodhmantra-5-lowres.jpg"
-                        alt="">
-                    <img id="example-img-4" bookname="'प्रबोधमंत्र' | Dr. Mrs. Nalini Gujarathi" details1="124 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper" binding="Hardcase binding" finish="Drip-off UV on cover" class="gallery-image" src="./images/book-images/prabodhmantra-4-lowres.jpg"
-                        alt="">
+                    <img id="example-img-3" bookname="'प्रबोधमंत्र' | Dr. Mrs. Nalini Gujarathi"
+                        details1="124 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper"
+                        binding="Hardcase binding" finish="Drip-off UV on cover" class="gallery-image"
+                        src="./images/book-images/prabodhmantra-5-lowres.jpg" alt="">
+                    <img id="example-img-4" bookname="'प्रबोधमंत्र' | Dr. Mrs. Nalini Gujarathi"
+                        details1="124 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper"
+                        binding="Hardcase binding" finish="Drip-off UV on cover" class="gallery-image"
+                        src="./images/book-images/prabodhmantra-4-lowres.jpg" alt="">
                     <!-- <img id="example-img-5" bookname="'प्रबोधमंत्र' | Dr. Mrs. Nalini Gujarathi" details1="124 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper" binding="Hardcase binding" finish="Drip-off UV on cover" class="gallery-image" src="./images/book-images/prabodhmantra-2-lowres.jpg" -->
-                        <!-- alt=""> -->
-                        <img id="example-img-5" bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association" details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding" finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image" src="./images/book-images/poona-game-1-lowres.jpg"
-                        alt="">
-                    <img id="example-img-6" bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association" details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding" finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image" src="./images/book-images/poona-game-2-lowres.jpg"
-                        alt="">
-                        <img id="example-img-7" bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association" details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper" cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding" finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image" src="./images/book-images/poona-game-3-lowres.jpg"
-                        alt="">
+                    <!-- alt=""> -->
+                    <img id="example-img-5"
+                        bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association"
+                        details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper"
+                        cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding"
+                        finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image"
+                        src="./images/book-images/poona-game-1-lowres.jpg" alt="">
+                    <img id="example-img-6"
+                        bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association"
+                        details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper"
+                        cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding"
+                        finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image"
+                        src="./images/book-images/poona-game-2-lowres.jpg" alt="">
+                    <img id="example-img-7"
+                        bookname="'The Poona Game' | Poona District and Metropolitan Badminton Association"
+                        details1="184 pages, 8.25 x 10.5 inch" inner-paper="170 GSM Art paper"
+                        cover="170 GSM Art paper, Sleeve: 350 GSM ITC" binding="Hardcase binding"
+                        finish="Drip-off UV on cover, Matte lamination, punching, pasting" class="gallery-image"
+                        src="./images/book-images/poona-game-3-lowres.jpg" alt="">
                     <img class="arrow-chev" id="example-right" src="./images/feather-icon/chevron-right.svg" alt=""
                         onclick="exampleRightPress()">
                 </div>
@@ -325,9 +352,9 @@
                     choosing what you would like the final product to be like. This allows us to manufacture all kinds
                     of print jobs, be it high volume, low volume, fully customized, or compliant with industry
                     standards.</h2>
-                    <div class="buttons-container">
-                        <a href="https://sprw.io/stt-6502b8" class="button-1" id="services-list-button">I am interested</a>
-                    </div>
+                <div class="buttons-container">
+                    <a href="https://sprw.io/stt-6502b8" class="button-1" id="services-list-button">I am interested</a>
+                </div>
             </div>
             <img class="capabilities-img" src="./images/capabilities-1.png" alt="">
         </div>
