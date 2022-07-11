@@ -37,7 +37,7 @@
 
     <script>
         function redirWWW() {
-            if (location.href.indexOf('www') < 0)
+            if (!location.href.indexOf('http://www'))
                 location.href = 'https://unitedprinters.in';
         }
     </script>
