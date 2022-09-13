@@ -29,6 +29,8 @@ div{
     background-attachment: fixed !important;
 }
 
+
+
 @media only screen and (min-width: 1366px) {
     a {
         text-decoration: none;
@@ -262,6 +264,12 @@ div{
     }
 
     #hidden-button {
+        display: none;
+        opacity: 0;
+        transition: ease-in-out 120ms;
+    }
+    #hidden-button2 {
+        display: none;
         opacity: 0;
         transition: ease-in-out 120ms;
     }
@@ -827,6 +835,10 @@ div{
         opacity: 0;
         transition: ease-in-out 120ms;
     }
+    #hidden-button2 {
+        opacity: 0;
+        transition: ease-in-out 120ms;
+    }
 
     .paper-bg-container {
         min-height: 100px;
@@ -1352,6 +1364,7 @@ div{
         align-items: center;
         margin: auto;
         width: 90%;
+        align-content: center;
     }
 
     .sticky-link-container{
@@ -1375,13 +1388,26 @@ div{
 
 
     #hidden-logo {
+        
         width: 40px;
         opacity: 0;
         transition: ease-in-out 120ms;
     }
 
+    .hidden-button-container{
+        right: 0px;
+        left: auto;
+        top: auto;
+        bottom: auto;
+        display: flex;
+    }
+
     #hidden-button {
-        opacity: 0;
+        margin-right: 6px;
+        transition: ease-in-out 120ms;
+    }
+    #hidden-button2 {
+        
         transition: ease-in-out 120ms;
     }
 
