@@ -397,6 +397,20 @@ div{
         height: 454px;
     }
 
+    .machine-container{
+        width: 590px;
+        /* background-color: rgb(221, 127, 45); */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 12px;
+        column-gap: 12px;
+    }
+
+    .machine-container iframe{
+        display: block;
+    }
+
     .infra {
         height: 440px !important;
     }
@@ -981,6 +995,8 @@ div{
         display: block;
         height: 454px;
     }
+
+    
 
     .infra {
         height: 350px !important;
