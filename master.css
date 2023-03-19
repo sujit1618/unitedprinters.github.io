@@ -398,7 +398,7 @@ div{
     }
 
     .machine-container{
-        width: 590px;
+        width: 650px;
         /* background-color: rgb(221, 127, 45); */
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -407,8 +407,16 @@ div{
         column-gap: 12px;
     }
 
-    .machine-container iframe{
+    .video-container{
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #bcbdbd;
+    }
+
+    .video-container iframe{
         display: block;
+        margin-bottom: 8px;
     }
 
     .infra {
