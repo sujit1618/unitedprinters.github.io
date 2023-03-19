@@ -1004,7 +1004,28 @@ div{
         height: 454px;
     }
 
-    
+    .machine-container{
+        width: 400px;
+        /* background-color: rgb(221, 127, 45); */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 12px;
+        column-gap: 12px;
+    }
+
+    .video-container{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #bcbdbd;
+    }
+
+    .video-container iframe{
+        width: 200px;
+        display: block;
+        margin-bottom: 8px;
+    }
 
     .infra {
         height: 350px !important;
@@ -1613,6 +1634,32 @@ div{
     .capabilities-img {
         margin-top: 24px;
         display: block;
+    }
+
+    .machine-container{
+        margin: auto auto;
+        width: 400px;
+        /* background-color: rgb(221, 127, 45); */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 12px;
+        column-gap: 12px;
+    }
+
+    .video-container{
+        margin: auto auto;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #bcbdbd;
+    }
+
+    .video-container iframe{
+        margin: auto auto;
+        /* width: 200px; */
+        display: block;
+        margin-bottom: 8px;
     }
 
     .infra {
